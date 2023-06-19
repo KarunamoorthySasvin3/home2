@@ -1,0 +1,482 @@
+	/* Styling for index.html */
+
+.home-heading{
+	background-color: rgb(104, 152, 196);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.home-heading img {
+		width:150px;
+		height:100px;
+		margin: 20px;
+
+}
+
+.home-screen{
+	
+	background-color:rgb(104, 152, 196);
+}
+.home-page{
+	background-color: #696867;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size:20px;
+	margin-bottom: 40px;
+	border-style:solid;
+	border-width:3px;
+	border-color: black;
+}
+
+.home-page div{
+	border-style:solid;
+	border-width:3px;
+	border-color: black;
+	margin:10px;
+	transition-duration: 0.5s;
+}
+
+.home-page div a{
+	border-color: black;
+	text-decoration:none
+	
+}
+.home-page div a img {
+	margin: 20px;
+	width:225px;
+	height:150px;
+
+}
+
+.home-page div:hover {
+	width:300px;
+	height:200px;
+	margin: 30px;
+	padding:20px;
+	border-style:solid;
+	border-width:3px;
+	border-color: black;
+	font-size:25px;
+}
+	
+
+/* General Styling to be used across the website */
+
+.font {
+	font-family: "Gill Sans", sans-serif;
+}
+#white-font{
+	color:white;
+}
+.center {
+	text-align:center;
+}
+.image-citation{
+		font-size:9px;
+		text-align:center;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; /* Adjust the dropdown position */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Styling for comparing_sides.html */
+
+/*General styling for the entire page */
+.comparing-sides {
+	
+}
+
+.comparing-h1 {
+	font-family: "Gill Sans", sans-serif;
+	text-align:center;
+	
+}
+
+/* Styling for the head of the page */
+.comparing-heading {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.comparing-heading img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+/* Styling the hr tags used to divide each section*/
+#comparing-hr{
+	height: 10px;
+	background-color: black;
+}
+
+/* Styling the States section */
+
+.list-of-states {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.usa{
+	background-color:rgb(211, 211, 211);	
+	margin:10px
+}
+
+.csa{
+	background-color:rgb(104, 152, 196);
+	margin:10px
+}
+
+.states-hr{
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+.states-h1{
+	padding:5px;
+}
+.list-of-states ul{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+    gap: 20px;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.country-image {
+	max-width: 100%;
+    height: auto;
+}
+
+
+/*Styling the Chart */
+.statistics{
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	background-color:rgb(211, 211, 211);
+	font-size:30px;
+	display:flex;
+	padding:10px
+}
+.statistics th{
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	
+}
+.statistics td{
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	
+}
+.statistics td:hover {
+	background-color: red;
+	transform: scale(1.1);
+	transition: background-color 0.3s;
+	transition: transform 0.3s;
+	
+}
+
+.statistics p{
+	text-align:center;
+	font-size:25px;
+	float:right;
+	
+}
+
+
+
+/*Styling for the early war page*/ 
+
+
+/* Adding a static background */
+.early-war-background{
+	background-image: url("images/early_war_background.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*creating a transition for the entire page */
+
+.early-war-header{
+	padding:50px;
+	background-color:#848383;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-clip: content-box;
+}
+.early-war-header img{
+	height:150px;
+	width:120px;
+	padding:20px;
+}
+.early-war-starting-p{
+	text-align:center;
+	font-size:15px;
+	background-color:#848383;
+}
+.early-war-battle{
+	background-color:rgb(104, 152, 196);
+	padding:30px;
+}
+.early-war-battle-headers{
+	text-align:center;
+}
+.early-war-battle-maps{
+	float:left;
+	width:540px;
+	height:420px;
+}
+
+/*Adjusting the size for the map of Malvern Hill*/
+#malvern-hill{
+	width:540px;
+	height:480px;
+}
+.early-war-battle-data{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+
+}
+
+
+/*Adding an extra row for Antietam */ 
+
+
+.early-war-battle hr{
+	height: 5px;
+	background-color: black;
+
+}
+
+.early-war-battle-text{
+	font-size:20px;
+}
+
+.early-war-csa-victory{
+	margin:30px;
+	display:flex;
+	background-color:#C41E3A;
+	text-align:center;
+	padding:30px;
+	justify-content:center;
+	font-size:30px;
+	background-clip: content-box;
+}
+.early-war-csa-victory img{
+	height:100px;
+	width:100px;
+	padding:20px;
+}
+
+.early-war-usa-victory{
+	margin:30px;
+	display:flex;
+	justify-content:center;
+	background-color: #00308F;
+	text-align:center;
+	padding:30px;
+	background-clip: content-box;
+	font-size:30px;
+
+}
+.early-war-usa-victory img{
+	height:100px;
+	width:100px;
+	padding:20px;
+}
+/*Styling the links in the bottom */ 
+.early-war-links{
+	background-color:black;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 
+
+}
+
+/*Styling for important_figures.html*/
+
+/*Styling for late_war.html */
+
+/*Styling will be reused from early_war.html with the addition of this class to change the color */
+.late-war{
+	background-color:#000000;
+	color:white;
+}
+
+#lee-picture{
+	height:200px;
+	width:220px;
+	padding:10px;
+}
+
+.late-war-intro{
+	padding:20px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-color:#000000;
+	margin:50px;
+	margin-top:0px;
+}
+.late-war-intro img{
+	height:300px;
+	width:500px;
+}
+
+/*Adding a static background */
+.late-war-background{
+	background-image: url("images/late_war_background.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.late-war-battle-hr{
+	height: 5px;
+	background-color:white;
+
+}
+
+
+
+
+/* Styling for important figures */
+.figures-background{
+	background-color:black;
+}
+.figures-heading{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	text-align:center;
+	font-size: 27px;
+}
+.figures-heading img{
+	height:185px;
+	width:210px;
+	padding:20px;
+	padding-top:0px;
+}
+.figures-dividers{
+	height:20px;
+	background-color:white;
+}
+
+.figures-data{
+	display:flex;
+}
+.figures-data img{
+	width:50%;
+	height:auto;
+	padding:20px;
+}
+.figures-data p{
+	font-size:20px;
+}
+.figures-data-headers{
+	text-align:center;
+	font-size:40px;
+}
+
+
+/*Styling for famous_units.html this styling*/
+.famous-background{
+	background-color:black;
+}
+.famous-heading{
+	text-align:center;
+	font-size: 27px;
+}
+.famous-data-header{
+	text-align:center;
+	font-size:25px;
+}
+.famous-data{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.famous-dividers{
+	height:20px;
+	background-color:red;
+}
+.famous-data img{
+	float:left;
+	width:80%;
+	height:auto;
+	padding:20px;
+}
+.famous-data ol{
+	border: 1px; 
+	border-style:solid;
+	border-color:white;
+}
+.famous-data ol li{
+	padding:10px;
+	border-bottom: 1px; 
+	border-style:solid;
+	border-color:white;
+}
+.famous-table-header{
+	text-align:center;
+	font-size:18px;
+}
+
+
+/* Styling for famous_units.html */
